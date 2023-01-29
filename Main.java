@@ -37,8 +37,8 @@ public class Main {
         System.out.println(x);
         System.out.println(y);
 
-        //learning about scanners
-
+        //learning about scanners (commented out so I can run w/o answering questions every time)
+        /* 
         Scanner scanner = new Scanner (System.in);
 
         System.out.println("What is your name");
@@ -53,6 +53,20 @@ public class Main {
         System.out.println("What is your favorite food?");
         String food = scanner.nextLine();
         System.out.println(food + " is a good food");
+        */
+
+        //learning about expressions: + - * / %
+
+        double friends = 10;
+
+        friends = friends + 1;
+        System.out.println(friends);
+
+        friends--;
+        System.out.println(friends);
+
+        friends = (double) friends / 3;
+        System.out.println(friends);
 
     }
 }
