@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -68,5 +69,44 @@ public class Main {
         friends = (double) friends / 3;
         System.out.println(friends);
 
+        //learning Math
+
+        double sideA = 3.14;
+        double sideB = -10;
+
+        double greaterThan = Math.max(sideA, sideB);
+
+        System.out.println(greaterThan);
+
+        //hypotenuse calc
+
+        /* 
+        double sideX;
+        double sideY;
+        double z;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter side x:");
+        sideX = scanner.nextDouble();
+        System.out.println("Enter side y:");
+        sideY = scanner.nextDouble();
+
+        z = Math.sqrt((sideX*sideX) + (sideY*sideY));
+         
+        System.out.println("The hypotenuse is " + z);
+
+        scanner.close();
+        */
+
+        //learning about random
+
+        Random random = new Random();
+
+        int randomOne = random.nextInt(6)+1;
+        System.out.println(randomOne);
+
+        double randomTwo = random.nextDouble();
+        System.out.println(randomTwo);
     }
 }
